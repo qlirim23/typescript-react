@@ -134,7 +134,7 @@
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
+          "app/layout:app/layout"
         ],
         "name": "*",
         "async": false
@@ -142,7 +142,7 @@
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
+          "app/layout:app/layout"
         ],
         "name": "",
         "async": false
@@ -150,7 +150,7 @@
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
+          "app/layout:app/layout"
         ],
         "name": "default",
         "async": false
@@ -229,32 +229,6 @@
         "id": "(sc_client)/./app/auth/QuertWrapper.tsx",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./app/post/[slug]/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/post/[slug]/page.tsx",
-        "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/post/[slug]/page.tsx",
-        "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/post/[slug]/page.tsx",
-        "chunks": [
-          "app/post/[slug]/page:app/post/[slug]/page"
         ],
         "name": "default",
         "async": false
@@ -487,7 +461,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\client\\link.js": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
@@ -495,7 +469,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\esm\\client\\link.js": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
@@ -503,7 +477,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\client\\link.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "",
     "async": false
@@ -511,7 +485,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\esm\\client\\link.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "",
     "async": false
@@ -519,7 +493,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\client\\link.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false
@@ -527,7 +501,7 @@
   "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false
@@ -600,30 +574,6 @@
     "id": "(app-client)/./app/auth/QuertWrapper.tsx",
     "chunks": [
       "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\app\\post\\[slug]\\page.tsx": {
-    "id": "(app-client)/./app/post/[slug]/page.tsx",
-    "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\app\\post\\[slug]\\page.tsx#": {
-    "id": "(app-client)/./app/post/[slug]/page.tsx",
-    "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "C:\\Users\\qlirim\\OneDrive\\Desktop\\bit\\reactrepo\\app\\post\\[slug]\\page.tsx#default": {
-    "id": "(app-client)/./app/post/[slug]/page.tsx",
-    "chunks": [
-      "app/post/[slug]/page:app/post/[slug]/page"
     ],
     "name": "default",
     "async": false

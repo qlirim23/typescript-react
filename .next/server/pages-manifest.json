@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/posts/getPosts": "pages/api/posts/getPosts.js",
-  "/api/posts/[details]": "pages/api/posts/[details].js",
-  "/api/posts/addComment": "pages/api/posts/addComment.js"
+  "/api/posts/getPosts": "pages/api/posts/getPosts.js"
 }
