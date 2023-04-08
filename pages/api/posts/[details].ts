@@ -11,7 +11,7 @@ export default async function handler(
       console.log(req.query);
       const data = await prisma.post.findUnique({
         where: {
-          id: req.query.details,
+          id: req.query.details as string | undefined,
         },
         include: {
           user: true,

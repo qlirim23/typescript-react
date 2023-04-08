@@ -43,9 +43,9 @@ export default function AddComment({ id }: PostProps) {
   const submitPost = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsDisabled(true);
-    commentToastId = toast.loading("Adding your comment", {
-      id: commentToastId,
-    });
+    // commentToastId = toast.loading("Adding your comment", {
+    //   id: commentToastId,
+    // });
     mutate({ title, postId: id });
   };
   return (

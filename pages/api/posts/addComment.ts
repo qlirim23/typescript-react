@@ -15,7 +15,7 @@ export default async function handler(
 
     const prismaUser = await prisma.user.findUnique({
       where: {
-        email: session?.user?.email,
+        email: session?.user?.email as string | undefined,
       },
     });
 
@@ -30,7 +30,7 @@ export default async function handler(
       const result = await prisma.comment.create({
         data: {
           message: title,
-          userId: prismaUser?.id,
+          userId: prismaUser!.id,
           postId,
         },
       });

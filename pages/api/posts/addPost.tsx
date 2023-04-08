@@ -19,7 +19,9 @@ export default async function handler(
 
     //Get User
     const prismaUser = await prisma.user.findUnique({
-      where: { email: session?.user?.email },
+      where: {
+        email: session?.user?.email as string | undefined,
+      },
     });
     //Check title
     if (title.length > 300) {
@@ -37,7 +39,7 @@ export default async function handler(
       const result = await prisma.post.create({
         data: {
           title,
-          userId: prismaUser.id,
+          userId: prismaUser!.id,
         },
       });
       res.status(200).json(result);
